@@ -49,6 +49,6 @@ main {
     font-feature-settings: 'lnum', 'tnum';
     margin-left: -3rem;
     position: absolute;
-    text-align: justify;
+    text-align: center;
     width: 2em;
 }
