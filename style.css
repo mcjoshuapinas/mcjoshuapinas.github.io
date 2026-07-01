@@ -16,7 +16,7 @@ nav ul {
 }
 
 main {
-    text-align: center;
+    text-align: left;/*modify here*/
     max-width: 800px;
     margin: 40px auto; /* Centers the main block on the screen */
     padding: 0 20px;
