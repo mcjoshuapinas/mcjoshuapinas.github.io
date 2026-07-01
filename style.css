@@ -44,3 +44,11 @@ main {
     border-radius: 8px;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
 }
+.typeset ol li:before{
+    content: counter(top-level) ".";
+    font-feature-settings: 'lnum', 'tnum';
+    margin-left: -3rem;
+    position: absolute;
+    text-align: justify;
+    width: 2em;
+}
