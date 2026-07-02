@@ -38,6 +38,18 @@ main {
     border-radius: 50%; /* Optional: makes the image circular like the example */
 }
 
+.bio-post {
+    text-align: justify;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.bio-post img {
+    display: block;
+    margin: 0 auto; /* Ensures the image respects the center alignment */
+    max-width: 100%; /* Adjust size as needed */
+    height: auto;
+}
 .window {
     border: 1px solid #ccc;
     padding: 20px;
